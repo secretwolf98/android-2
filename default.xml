@@ -15,6 +15,9 @@
 
   <remote  name="ziyan" fetch="../Ziyann" />
 
+  <remote  name="opengapps" fetch="../opengapps"
+           revision="master" />
+
   <remote  name="omni" fetch="../OmniROM"
            review="gerrit.omnirom.org"
            revision="android-6.0" />
@@ -461,5 +464,8 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/ti" name="proprietary_vendor_ti" remote="omap4-aosp" />
   <project path="vendor/bn" name="proprietary_vendor_bn" remote="airend" />
+  <project path="vendor/google/build" name="aosp_build" remote="opengapps" />
+  <project path="vendor/opengapps/sources/all" name="all" remote="opengapps" clone-depth="1" />
+  <project path="vendor/opengapps/sources/arm" name="arm" remote="opengapps" clone-depth="1" />
 
 </manifest>
