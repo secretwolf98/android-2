@@ -11,6 +11,7 @@
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/cmsdk-api-coverage" name="CyanogenMod/android_external_cmsdk-api-coverage" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" />
+  <project path="external/exfat-nofuse" name="dorimanx/exfat-nofuse" revision="master" />
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" />
   <project path="external/gello-build" name="CyanogenMod/android_external_gello_build" />
