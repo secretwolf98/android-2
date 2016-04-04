@@ -464,6 +464,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/ti" name="proprietary_vendor_ti" remote="unlegacy" />
-  <project path="vendor/bn" name="proprietary_vendor_bn" remote="airend" />
+  <project path="vendor/bn" name="proprietary_vendor_bn" remote="unlegacy" />
+  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="unlegacy" />
 
 </manifest>
