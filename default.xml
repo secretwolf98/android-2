@@ -63,6 +63,8 @@
   <project path="device/bn/common" name="android_device_bn_common" remote="airend" />
   <project path="device/bn/ovation" name="android_device_bn_ovation" remote="airend" />
   <project path="device/bn/hummingbird" name="android_device_bn_hummingbird" remote="airend" />
+  <project path="kernel/bn/acclaim" name="android_kernel_bn_acclaim" remote="cyan" />
+  <project path="device/bn/acclaim" name="android_device_bn_acclaim" remote="airend" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
