@@ -11,9 +11,6 @@
   <remote  name="omap4-aosp" fetch="../OMAP4-AOSP"
            revision="aosp-6.0" />
 
-  <remote  name="w1.fi" fetch="git://w1.fi"
-           revision="android-m" />
-
   <remote  name="zmod" fetch="../ZMoD-R"
            revision="zmod-6.0" />
 
@@ -156,7 +153,7 @@
   <project path="external/unzip" name="CyanogenMod/android_external_unzip" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" />
   <project path="external/vogar" name="CyanogenMod/android_external_vogar" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="hostap" remote="w1.fi" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
   <project path="external/zip" name="CyanogenMod/android_external_zip" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
