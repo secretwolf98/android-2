@@ -310,8 +310,8 @@
 <!-- BEGIN NOOK HD -->
   <project path="vendor/bn" name="proprietary_vendor_bn" remote="omap4-aosp" />
   <project path="vendor/ti" name="proprietary_vendor_ti" remote="omap4-aosp" revision="aosp-6.0-staging" />
-  <project path="kernel/bn/omap" name="android_kernel_bn_omap" remote="airend" />
-  <project path="device/bn/common" name="android_device_bn_common" remote="airend" />
+  <project path="kernel/bn/omap-next" name="android_kernel_omap4_common" remote="omap4-aosp" revision="3.4/nook" />
+  <project path="device/bn/common" name="android_device_bn_common" remote="airend" revision="wip/k-next" />
   <project path="device/bn/ovation" name="android_device_bn_ovation" remote="airend" />
   <project path="device/bn/hummingbird" name="android_device_bn_hummingbird" remote="airend" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="omap4-aosp" />
