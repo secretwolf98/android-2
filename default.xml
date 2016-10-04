@@ -21,7 +21,7 @@
 
   <remote  name="cyan" fetch="../CyanogenMod"
            review="review.cyanogenmod.org"
-           revision="staging/cm-14.0" />
+           revision="cm-14.0" />
 
   <remote  name="github" fetch=".."
            revision="master" />
