@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  
+ -  <!-- Device-specific -->
+ -  <include name="snippets/bn_hd.xml" />
+  
   <!-- LineageOS additions -->
   <project path="android" name="LineageOS/android" />
   <project path="external/bash" name="LineageOS/android_external_bash" />
